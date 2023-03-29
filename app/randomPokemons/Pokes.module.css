@@ -1,0 +1,35 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px;
+    width: 65%;
+    min-height: 70%;
+}
+
+.card{
+    background: #202124;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.title{
+    color: #fff;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.image{
+    margin: auto;
+}
